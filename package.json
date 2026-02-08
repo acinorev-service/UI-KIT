@@ -1,6 +1,6 @@
 {
   "name": "sofy-ui-kit-vue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": { 
     "name": "fet1sov",
     "email": "prodaugust21@gmail.com"
@@ -11,10 +11,14 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acinorev-service/SOFY-UIKIT-Vue.git"
+  },
   "exports": {
     ".": {
-      "import": "./dist/ui-kit.es.ts",
-      "require": "./dist/ui-kit.umd.ts"
+      "import": "./dist/sofy-ui-kit-vue.es.ts",
+      "require": "./dist/sofy-ui-kit-vue.umd.ts"
     },
     "./styles": "./dist/global.css"
   },
