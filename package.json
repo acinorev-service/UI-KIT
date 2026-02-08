@@ -1,6 +1,11 @@
 {
   "name": "sofy-ui-kit-vue",
   "version": "1.0.1",
+  "author": { 
+    "name": "fet1sov",
+    "email": "prodaugust21@gmail.com"
+  },
+  "license": "MIT",
   "type": "module",
   "keywords": ["components", "uikit", "acinorev", "sofy"],
   "files": [
