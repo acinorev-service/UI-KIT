@@ -1,7 +1,8 @@
 {
-  "name": "ui-kit",
-  "version": "1.0.0",
+  "name": "sofy-ui-kit-vue",
+  "version": "1.0.1",
   "type": "module",
+  "keywords": ["components", "uikit", "acinorev", "sofy"],
   "files": [
     "dist"
   ],

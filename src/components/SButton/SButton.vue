@@ -29,6 +29,7 @@ const props = defineProps({
   border-radius: 8px;
 
   transition: all 0.4s;
+  cursor: pointer;
 }
 
 .borderless {
@@ -51,27 +52,27 @@ const props = defineProps({
 
 .outline {
   color: var(--sofy-primary-color);
-  border: 1px solid color-mix(in srgb, var(--sofy-secondary-color) 100%, white 70%);
+  border: 1px solid color-mix(in srgb, var(--sofy-primary-color) 100%, black 70%);
   background-color: transparent;
 }
 
 .outline:hover {
-  background-color: color-mix(in srgb, var(--sofy-secondary-color) 100%, white 20%);
+  background-color: color-mix(in srgb, var(--sofy-secondary-color) 100%, black 20%);
 }
 
 @media (prefers-color-scheme: dark) {
   .solid:hover {
-    background-color: color-mix(in srgb, var(--sofy-primary-color) 100%, black 20%);
+    background-color: color-mix(in srgb, var(--sofy-primary-color) 100%, black 80%);
   }
 
   .outline {
     color: var(--sofy-primary-color);
-    border: 1px solid color-mix(in srgb, var(--sofy-secondary-color) 100%, black 70%);
+    border: 1px solid color-mix(in srgb, var(--sofy-primary-color) 100%, black 100%);
     background-color: transparent;
   }
 
   .outline:hover {
-    background-color: color-mix(in srgb, var(--sofy-secondary-color) 100%, black 20%);
+    background-color: color-mix(in srgb, var(--sofy-secondary-color) 100%, white 50%);
   }
 }
 </style>
