@@ -14,8 +14,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/components/index.ts'),
-      name: 'ui-kit',
-      fileName: format => `ui-kit.${format}.ts`
+      name: 'sofy-ui-kit-vue',
+      fileName: format => `sofy-ui-kit-vue.${format}.ts`
     },
     rollupOptions: {
       external: ['vue'],

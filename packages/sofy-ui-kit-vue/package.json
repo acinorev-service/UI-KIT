@@ -8,19 +8,19 @@
   "license": "MIT",
   "type": "module",
   "keywords": ["components", "uikit", "acinorev", "sofy"],
-  "files": [
-    "dist"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/acinorev-service/SOFY-UIKIT-Vue.git"
   },
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/sofy-ui-kit-vue.es.ts",
       "require": "./dist/sofy-ui-kit-vue.umd.ts"
     },
-    "./styles": "./dist/global.css"
+    "./styles": "./dist/style.css"
   },
   "scripts": {
     "dev": "vite",

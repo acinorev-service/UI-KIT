@@ -8,11 +8,6 @@ export default {
         disabled: {
             control: { type: 'boolean' },
             defaultValue: false,
-        },
-        variant: {
-            control: { type: 'radio' },
-            options: ['solid', 'outline'],
-            defaultValue: 'solid',
         }
     },
 } as Meta<typeof SCarousel>;

@@ -15,7 +15,9 @@ const props = defineProps({
 
 <template>
     <button class="button" :class="[props.variant]" :disabled="props.disabled">
+        <slot name="left-icon" />
         <slot />
+        <slot name="right-icon" />
     </button>
 </template>
 
